@@ -28,7 +28,7 @@ export const Type = new Callable(
 
                 return new BrsString(ValueKind.toString(variable.kind));
             } else {
-                return new BrsString(variable.getComponentName())
+                return new BrsString(variable.getComponentName());
             }
         }
     }
